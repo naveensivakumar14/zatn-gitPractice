@@ -1,0 +1,13 @@
+
+// create new folder
+// git init
+// rename master-> main
+// create new file "1.txt"
+// commit the file changes
+//create new file "2.txt"
+// commit the file changes
+// "1.txt"  add new line
+// commit the file changes
+// github new repo
+// link local repo and github repo
+//git push the project to the repo
