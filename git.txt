@@ -1,0 +1,96 @@
+GitHub commands
+
+
+
+//Introduction
+1. git
+2. git config --global user.name "{name}"
+3. git config --global user.email "{email}"
+
+//Pull the project
+4. git clone {link}
+
+//to see untracked files
+5. git status 
+
+//adding the file
+6. git add .
+
+git restore --staged (file name) -> get the file from staged area
+
+//commiting pushing the file from stagging area to git folder
+7. git commit -m "" 
+
+//push to the GitHub
+8. git push origin main
+
+// get the new file from the repo
+9. git pull
+
+//create git
+10. git init
+
+//connecting the git repo to the wrking directory
+11. git remote add origin {link}
+
+//for branch
+12. git branch
+
+//rename branch name
+13. git branch -M main 
+
+//show all branches
+14. git branch -a 
+
+//create new branch
+15. git branch {name}
+
+//choose the branch
+16. git checkout {branch-name}
+
+//ceate new branch and switch to it
+17. git checkout -b {branch-name}
+
+//diff between main branch and new branch
+18. git diff {branch name}
+
+//merging new branch
+19.  git merge {branch name}
+
+(Deeper)
+
+// to see all commits
+20. git log
+
+// move back to the commit
+21. git reset --hard  {commit id}
+
+//store in a particular place without deleting
+22. git stash
+
+//get the file from the place 
+23. git stash pop
+
+//delete the file in that place
+24. git stash clean
+
+//see all connections
+25. git remote -v
+
+Forking - (Whenever working on forked projects create new branch and work)
+
+//adding forked project url
+26. git remote add upstream {forked url}
+
+//pushing to make fork
+27. git push origin (branch name)
+
+//get changes from forked project
+28. git pull upstream main 
+
+
+(merge conflicts concept)
+
+
+
+
